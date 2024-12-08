@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* Estilos para el logo del encabezado */
+.header-logo {
+  margin-top: 10px;
+  /* Estilo para el logo */
+  /* Estilos para los párrafos */
+  /* Media query para pantallas pequeñas */
+}
+.header-logo .logo {
+  width: 161px;
+  height: 61px;
+}
+.header-logo p {
+  margin: 1rem 0 0 1rem; /* Combina márgenes superiores e izquierdos */
+}
+@media (max-width: 768px) {
+  .header-logo .titulo-header {
+    display: none; /* Oculta el título del encabezado */
+  }
+}
+
+/* Estilos para la búsqueda en el encabezado */
+.header-search {
+  margin-top: 1rem;
+  /* Botón con bordes redondeados */
+  /* Input con bordes redondeados */
+  /* Estilo para botones enfocados */
+  /* Media query para pantallas pequeñas */
+}
+.header-search button {
+  border-radius: 0 30px 30px 0; /* Usa sintaxis corta para los bordes */
+}
+.header-search input {
+  border-radius: 30px 0 0 30px; /* Usa sintaxis corta para los bordes */
+}
+.header-search .btn-grid:focus {
+  outline: none; /* Elimina el contorno */
+  box-shadow: none; /* Elimina la sombra */
+  border: none; /* Elimina el borde */
+}
+@media (max-width: 768px) {
+  .header-search input {
+    display: none; /* Oculta el input */
+  }
+}
+
+/* Estilos para la barra de navegación */
+/* Estilos para el color de la barra de navegación */
+.color-navbar {
+  border: 1px solid rgba(218, 218, 218, 0.5); /* Gris semi-transparente */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para la navegación */
+.navegacion {
+  /* Enlaces de navegación */
+  /* Estilo para el favicon */
+}
+.navegacion .na {
+  color: #DC052D; /* Color rojo */
+}
+.navegacion .favicon {
+  height: 45px; /* Altura del favicon */
+  width: 45px; /* Ancho del favicon */
+}
+
+/* Aqui el main */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  margin: 20px;
+  display: flex;
+  transition: 0.5s;
+  background-color: #ecf0f9;
+}
+.cards p {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+}
+.cards .card-titles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card-headers {
+  background-image: url(public/card/Vector.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 82px;
+  width: 82px;
+}
+.cards .card-mains {
+  background-color: #ff6b0a;
+  width: 62.88px;
+  height: 62.88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.cards:hover {
+  transform: translate(0px, 10px);
+  background-color: #c1c2c4;
+  border-radius: 10px;
+}
+
+#tarjeta {
+  background-color: #ecf0f9;
+}
+
+.boton {
+  padding-bottom: 40px;
+}
+.boton .btn-1 {
+  background-color: #003670;
+  border: none;
+  margin-right: 5px;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: white;
+}
+.boton .btn-1:hover {
+  background-color: #ecf0f9;
+  color: #fd6b0d;
+}
+.boton .btn-2 {
+  background-color: #fd6b0d;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: white;
+}
+.boton .btn-2:hover {
+  background-color: #ecf0f9;
+  color: #fd6b0d;
+}
+
+/* Aqui Informacion al cliente */
+#informacion-al-cliente-title {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
