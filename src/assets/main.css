@@ -148,4 +148,19 @@
   margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.card-cliente {
+  height: 160px;
+}
+
+#pa {
+  border-color: #c1c2c4;
+  box-shadow: #c1c2c4;
+  border-radius: 20px !important;
+}
+#pa:hover {
+  transition: 0.5s;
+  transform: translate(10px, 10px);
+  background-color: #c1c2c4;
 }/*# sourceMappingURL=main.css.map */
