@@ -170,17 +170,63 @@
   margin-bottom: 40px;
   text-align: center;
 }
-.card-cliente {
-  height: 160px;
-}
-#pa {
+#card-informacion-al-cliente {
   border-color: #c1c2c4;
   box-shadow: #c1c2c4;
-  border-radius: 20px !important; 
+  border-radius: 20px !important;
+  margin-bottom: 40px;
+  p {
+    font-size: 14px;
+    font-weight: 600;
+  } 
   &:hover {
     transition: 0.5s;
     transform: translate(10px, 10px);
-    background-color: #c1c2c4;
+    background-color: #dadada;
+    p {
+      color: #fd6b0d;
+    }
   }
+
+}
+.card-cliente {
+  height: 160px;
+}
+
+/* Aqui Informacion el App movil */
+
+.app-movil-titles {
+  background: linear-gradient(to bottom, white, #DA690C18);
+  margin-top: 40px;
+  h6 {
+    font-size: 25px;
+    font-weight: 600px;
+    color: #FD6B0D;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #003670;
+  }
+p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #909AA8;
+}
+button {
+  height: 45px;
+  width: 202px;
+  border-radius: 50px;
+  color: #FD6B0D;
+  border-color: #FD6B0D;
+  margin-top: 20px;
+   margin-bottom: 20px;
+  &:hover {
+    background-color: #FD6B0D;
+    color: white;
+
+  }
+
+}
 
 }

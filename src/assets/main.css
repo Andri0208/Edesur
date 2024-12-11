@@ -150,17 +150,59 @@
   text-align: center;
 }
 
+#card-informacion-al-cliente {
+  border-color: #c1c2c4;
+  box-shadow: #c1c2c4;
+  border-radius: 20px !important;
+  margin-bottom: 40px;
+}
+#card-informacion-al-cliente p {
+  font-size: 14px;
+  font-weight: 600;
+}
+#card-informacion-al-cliente:hover {
+  transition: 0.5s;
+  transform: translate(10px, 10px);
+  background-color: #dadada;
+}
+#card-informacion-al-cliente:hover p {
+  color: #fd6b0d;
+}
+
 .card-cliente {
   height: 160px;
 }
 
-#pa {
-  border-color: #c1c2c4;
-  box-shadow: #c1c2c4;
-  border-radius: 20px !important;
+/* Aqui Informacion el App movil */
+.app-movil-titles {
+  background: linear-gradient(to bottom, white, rgba(218, 105, 12, 0.0941176471));
+  margin-top: 40px;
 }
-#pa:hover {
-  transition: 0.5s;
-  transform: translate(10px, 10px);
-  background-color: #c1c2c4;
+.app-movil-titles h6 {
+  font-size: 25px;
+  font-weight: 600px;
+  color: #FD6B0D;
+}
+.app-movil-titles h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #003670;
+}
+.app-movil-titles p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #909AA8;
+}
+.app-movil-titles button {
+  height: 45px;
+  width: 202px;
+  border-radius: 50px;
+  color: #FD6B0D;
+  border-color: #FD6B0D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.app-movil-titles button:hover {
+  background-color: #FD6B0D;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

@@ -41,7 +41,7 @@ const informacionAlCliente = [
     <div class="container text-center">
   <div class="row align-items-start">
     <div v-for="informacionAlCliente in informacionAlCliente" class="col-12 col-sm-4 mt-4  " >
-        <div class=" card " id="pa">
+        <div class=" card " id="card-informacion-al-cliente">
             <div class="card-cliente d-flex align-items-center">
       <a href="#" class="nav-link">
         <div class="row g-0">

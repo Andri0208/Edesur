@@ -19,7 +19,7 @@ const img = {
       <div class="header-search d-flex align-items-center">
         <form class="d-flex" role="search">
           <input id="search-1" class="form-control" type="search" placeholder="¿Qué quieres buscar?" aria-label="Search">
-          <button class="btn btn-danger" type="submit">
+          <button class="btn btn-danger btn-search" type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
