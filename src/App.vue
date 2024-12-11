@@ -3,6 +3,7 @@ import AppMovil from './components/AppMovil.vue';
 import Headers from './components/Headers.vue';
 import InformacionAlCliente from './components/informacionAlCliente.vue';
 import Mains from './components/mains.vue';
+import Noticias from './components/Noticias.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Mains from './components/mains.vue';
 <Mains/>
 <InformacionAlCliente/>
 <AppMovil/>
+<Noticias/>
 </div>
 
 </template>
