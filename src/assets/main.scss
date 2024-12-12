@@ -77,30 +77,35 @@
 
 
 /* Aqui el main */
+/* Estilo para el banner principal */
 .banner {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Estilo para las tarjetas */
 .cards {
   margin: 20px;
   display: flex;
   transition: 0.5s;
   background-color: #ecf0f9;
 
+  /* Texto dentro de las tarjetas */
   p {
     font-size: 13px;
     text-align: center;
     font-weight: 500;
   }
 
+  /* Títulos de las tarjetas */
   .card-titles {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
+  /* Encabezados con imagen de fondo */
   .card-headers {
     background-image: url(public/card/Vector.png);
     background-repeat: no-repeat;
@@ -111,6 +116,7 @@
     width: 82px;
   }
 
+  /* Elemento principal de la tarjeta con fondo y bordes redondeados */
   .card-mains {
     background-color: #ff6b0a;
     width: 62.88px;
@@ -122,19 +128,23 @@
   }
 }
 
+/* Efecto hover para las tarjetas */
 .cards:hover {
   transform: translate(0px, 10px);
   background-color: #c1c2c4;
   border-radius: 10px;
 }
 
+/* Estilo para un contenedor específico */
 #tarjeta {
   background-color: #ecf0f9;
 }
 
+/* Estilo para los botones */
 .boton {
   padding-bottom: 40px;
 
+  /* Botón primario */
   .btn-1 {
     background-color: #003670;
     border: none;
@@ -149,6 +159,7 @@
     }
   }
 
+  /* Botón secundario */
   .btn-2 {
     background-color: #fd6b0d;
     border: none;
@@ -163,149 +174,174 @@
   }
 }
 
-/* Aqui Informacion al cliente */
-
+/* Información para el cliente */
 #informacion-al-cliente-title {
   margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
 }
+
 #card-informacion-al-cliente {
   border-color: #c1c2c4;
   box-shadow: #c1c2c4;
   border-radius: 20px !important;
   margin-bottom: 40px;
+
+  /* Texto dentro del card */
   p {
     font-size: 14px;
     font-weight: 600;
-  } 
+  }
+
+  /* Efecto hover para el card */
   &:hover {
     transition: 0.5s;
     transform: translate(10px, 10px);
     background-color: #dadada;
+
     p {
       color: #fd6b0d;
     }
   }
-
 }
+
 .card-cliente {
   height: 160px;
 }
 
-/* Aqui Informacion el App movil */
-
+/* Información sobre la app móvil */
 .app-movil-titles {
-  background: linear-gradient(to bottom, white, #DA690C18);
+  background: linear-gradient(to bottom, white, #da690c18);
   margin-top: 40px;
+
+  /* Subtítulo */
   h6 {
     font-size: 25px;
-    font-weight: 600px;
-    color: #FD6B0D;
+    font-weight: 600;
+    color: #fd6b0d;
   }
+
+  /* Título principal */
   h2 {
     font-size: 32px;
     font-weight: 500;
     color: #003670;
   }
-p {
-  font-size: 15px;
-  font-weight: 600;
-  color: #909AA8;
-}
-button {
-  height: 45px;
-  width: 202px;
-  border-radius: 50px;
-  color: #FD6B0D;
-  border-color: #FD6B0D;
-  margin-top: 20px;
-   margin-bottom: 20px;
-  &:hover {
-    background-color: #FD6B0D;
-    color: white;
 
-  }
-
-}
-
-
-}
-.portada-noticias {
-  
-  button {
-    height: 45px;
-  width: 202px;
-  border-radius: 50px;
-  background-color: #FD6B0D;
-  color: white;
-  border: none;
-  margin-top: 80px;
-  margin-left: 10px;
-  font-weight: 400;
-  
-  &:hover {
-    transition: 0.5s;
-    background-color: white;
-    color: #FD6B0D;
-
-  }
-  
-  }
-  
-  width: 568px;
-  height: 319.5px;
-  border-radius: 15px;
-.fondo-portada {
-  background: linear-gradient(to bottom,  #083367 , #8E8E8E61);
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-}
-.noticias-header {
-  padding:  20px;
+  /* Texto de descripción */
   p {
-    color: white;
-    font-weight: 400;
-  }
-  .header-parrafo{
-    
-    font-weight: 400;
-    color: #FD6B0D;
+    font-size: 15px;
+    font-weight: 600;
+    color: #909aa8;
   }
 
-}
-.noticias-main {
-  padding: 0px 20px 20px 20px;
-  p {
-    font-size: 20px;
-    color: white;
-  }
-}
-}
-@media (max-width: 480px) {
-.portada-noticias {
-  button {
-    margin-top: 30px;
-  }
-}  
-}
-.portada-titles {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  /* Botón */
   button {
     height: 45px;
     width: 202px;
     border-radius: 50px;
-    background-color: #FD6B0D;
+    color: #fd6b0d;
+    border-color: #fd6b0d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &:hover {
+      background-color: #fd6b0d;
+      color: white;
+    }
+  }
+}
+
+/* Noticias destacadas */
+.portada-noticias {
+  width: 568px;
+  height: 319.5px;
+  border-radius: 15px;
+  position: relative;
+  &:hover {
+    transition: 0.5s;
+    transform: translate(10px, 10px);
+  }
+
+  /* Botón dentro de las noticias */
+  button {
+    height: 45px;
+    width: 202px;
+    border-radius: 50px;
+    background-color: #fd6b0d;
     color: white;
     border: none;
     font-weight: 400;
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px;
+
     &:hover {
       transition: 0.5s;
       background-color: white;
-      color: #FD6B0D;
-  
+      color: #fd6b0d;
+    }
+  }
+
+  .fondo-portada {
+    background: linear-gradient(to bottom, #083367, #8e8e8e61);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+  }
+
+  .noticias-header {
+    padding: 20px;
+
+    p {
+      color: white;
+      font-weight: 400;
+    }
+
+    .header-parrafo {
+      font-weight: 400;
+      color: #fd6b0d;
+    }
+  }
+
+  .noticias-main {
+    padding: 0px 20px 20px 20px;
+
+    p {
+      font-size: 20px;
+      color: white;
+    }
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 480px) {
+  .portada-noticias {
+    button {
+      margin-top: 30px;
+    }
+  }
+}
+
+/* Títulos de la portada */
+.portada-titles {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  button {
+    height: 45px;
+    width: 202px;
+    border-radius: 50px;
+    background-color: #fd6b0d;
+    color: white;
+    border: none;
+    font-weight: 400;
+
+    &:hover {
+      transition: 0.5s;
+      background-color: white;
+      color: #fd6b0d;
     }
   }
 }
