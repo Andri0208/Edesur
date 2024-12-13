@@ -7,7 +7,7 @@ const img = {
 </script>
 
 <template>
-  <header>
+  <header class="base">
     <div class="d-flex justify-content-between header-container container">
       <!-- Logo y nombre -->
       <div class="d-flex header-logo">

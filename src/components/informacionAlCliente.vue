@@ -31,7 +31,7 @@ const informacionAlCliente = [
 </script>
 
 <template>
-    <section>
+    <div class="base">
 
 <div id="informacion-al-cliente-title">
     <h1>Información al Cliente</h1>
@@ -64,7 +64,7 @@ const informacionAlCliente = [
 </div>
 
 
-</section>
+    </div>
 
 </template>
 

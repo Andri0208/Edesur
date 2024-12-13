@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.edesur {
+  background-color: #f3f3f3;
+}
+
+.base {
+  border-color: #083367;
+}
+
 /* Estilos para el logo del encabezado */
 .header-logo {
   margin-top: 10px;
@@ -331,4 +339,18 @@
   transition: 0.5s;
   background-color: white;
   color: #fd6b0d;
+}
+
+/* Area de Certificaciones */
+.certificaciones {
+  padding: 40px;
+}
+.certificaciones .certificaciones-title {
+  font-size: 28px;
+}
+.certificaciones .certificaciones-title span {
+  color: #FD6B0D;
+}
+.certificaciones .contenido-title p {
+  color: #909AA8;
 }/*# sourceMappingURL=main.css.map */

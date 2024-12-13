@@ -8,7 +8,7 @@ const appMovilImg = {
 </script>
 
 <template>
-<div class="app-movil-titles text-center container" >
+<div class="app-movil-titles text-center container base" >
     <h6>App Movil Edesur</h6>
     <h2>¡Aprovecha al máximo tus servicios!</h2>
     <p>¿Estás buscando una forma rápida y sencilla de gestionar tus servicios eléctricos? No busques más. Con nuestra<br>

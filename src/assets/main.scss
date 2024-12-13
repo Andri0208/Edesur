@@ -1,3 +1,9 @@
+.edesur {
+  background-color: #f3f3f3;
+}
+.base{
+  border-color: #083367;
+}
 /* Estilos para el logo del encabezado */
 .header-logo {
   margin-top: 10px;
@@ -383,6 +389,30 @@
       transition: 0.5s;
       background-color: white;
       color: #fd6b0d;
+    }
+  }
+}
+
+/* Area de Certificaciones */
+
+.certificaciones {
+  // Espaciado general para la sección de certificaciones
+  padding: 40px;
+
+  .certificaciones-title {
+    // Tamaño de fuente del título principal de las certificaciones
+    font-size: 28px;
+
+    span {
+      // Color destacado para el texto dentro del título principal
+      color: #FD6B0D;
+    }
+  }
+
+  .contenido-title {
+    p {
+      // Color del texto descriptivo debajo del título principal
+      color: #909AA8;
     }
   }
 }

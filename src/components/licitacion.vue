@@ -20,7 +20,7 @@ const img = {
 </script>
 
 <template>
-    <div class="container licitacion">
+    <div class="container licitacion base" >
         <!-- Título principal de la sección de licitaciones -->
         <div class="title-licitacion text-center">
             <h2>Licitación Nacional e Internacional</h2>

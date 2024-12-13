@@ -62,7 +62,7 @@ const banner = {
   <!-- Fin del carrusel -->
 
   <!-- Sección de tarjetas -->
-  <section id="tarjeta" class="container">
+  <section id="tarjeta" class="container base">
     <div class="container banner">
       <img :src="banner.img" class="img-fluid" alt="Banner">
     </div>
