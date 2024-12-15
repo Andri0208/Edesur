@@ -58,7 +58,6 @@ body {
 }
 
 /* Estilos para la barra de navegación */
-/* Estilos para el color de la barra de navegación */
 .color-navbar {
   border: 1px solid rgba(218, 218, 218, 0.5); /* Gris semi-transparente */
   border-radius: 5px; /* Bordes redondeados */
@@ -77,7 +76,6 @@ body {
   width: 45px; /* Ancho del favicon */
 }
 
-/* Aqui el main */
 /* Estilo para el banner principal */
 .banner {
   display: flex;
@@ -116,7 +114,7 @@ body {
   width: 82px;
 }
 .cards .card-mains {
-  background-color: #ff6b0a;
+  background-color: #fd6b0d;
   width: 62.88px;
   height: 62.88px;
   display: flex;
@@ -149,7 +147,7 @@ body {
   margin-right: 5px;
   border-radius: 50px;
   padding: 10px 35px;
-  color: white;
+  color: #ffffff;
 }
 .boton .btn-1:hover {
   background-color: #ecf0f9;
@@ -160,7 +158,7 @@ body {
   border: none;
   border-radius: 50px;
   padding: 10px 35px;
-  color: white;
+  color: #ffffff;
 }
 .boton .btn-2:hover {
   background-color: #ecf0f9;
@@ -189,7 +187,7 @@ body {
 #card-informacion-al-cliente:hover {
   transition: 0.5s;
   transform: translate(10px, 10px);
-  background-color: #dadada;
+  background-color: #c1c2c4;
 }
 #card-informacion-al-cliente:hover p {
   color: #fd6b0d;
@@ -201,7 +199,7 @@ body {
 
 /* Información sobre la app móvil */
 .app-movil-titles {
-  background: linear-gradient(to bottom, white, rgba(218, 105, 12, 0.0941176471));
+  background: linear-gradient(to bottom, #ffffff, rgba(218, 105, 12, 0.0941176471));
   margin-top: 40px;
   /* Subtítulo */
   /* Título principal */
@@ -221,7 +219,7 @@ body {
 .app-movil-titles p {
   font-size: 15px;
   font-weight: 600;
-  color: #909aa8;
+  color: #797979;
 }
 .app-movil-titles button {
   height: 45px;
@@ -234,7 +232,7 @@ body {
 }
 .app-movil-titles button:hover {
   background-color: #fd6b0d;
-  color: white;
+  color: #ffffff;
 }
 
 /* Noticias destacadas */
@@ -254,7 +252,7 @@ body {
   width: 202px;
   border-radius: 50px;
   background-color: #fd6b0d;
-  color: white;
+  color: #ffffff;
   border: none;
   font-weight: 400;
   position: absolute;
@@ -263,7 +261,7 @@ body {
 }
 .portada-noticias button:hover {
   transition: 0.5s;
-  background-color: white;
+  background-color: #ffffff;
   color: #fd6b0d;
 }
 .portada-noticias .fondo-portada {
@@ -276,7 +274,7 @@ body {
   padding: 20px;
 }
 .portada-noticias .noticias-header p {
-  color: white;
+  color: #ffffff;
   font-weight: 400;
 }
 .portada-noticias .noticias-header .header-parrafo {
@@ -288,7 +286,7 @@ body {
 }
 .portada-noticias .noticias-main p {
   font-size: 20px;
-  color: white;
+  color: #ffffff;
 }
 
 /* Ajustes para pantallas pequeñas */
@@ -307,19 +305,19 @@ body {
   width: 202px;
   border-radius: 50px;
   background-color: #fd6b0d;
-  color: white;
+  color: #ffffff;
   border: none;
   font-weight: 400;
 }
 .portada-titles button:hover {
   transition: 0.5s;
-  background-color: white;
+  background-color: #ffffff;
   color: #fd6b0d;
 }
 
 /* Area de licitacion */
 .licitacion {
-  background-color: #ECF0F9;
+  background-color: #ecf0f9;
   padding: 60px;
 }
 .licitacion .columna {
@@ -335,14 +333,13 @@ body {
   height: 45px;
   width: 202px;
   border-radius: 50px;
-  background-color: #003670;
-  color: white;
+  background-color: #fd6b0d;
+  color: #ffffff;
   border: none;
-  font-weight: 400;
 }
 .licitacion button:hover {
   transition: 0.5s;
-  background-color: white;
+  background-color: #ffffff;
   color: #fd6b0d;
 }
 
@@ -354,10 +351,10 @@ body {
   font-size: 28px;
 }
 .certificaciones .certificaciones-title span {
-  color: #FD6B0D;
+  color: #fd6b0d;
 }
 .certificaciones .contenido-title p {
-  color: #909AA8;
+  color: #909aa8;
 }
 
 /* Area de Contactanos */
@@ -370,14 +367,8 @@ body {
 .contactanos .cell {
   margin: 5px;
 }
-.contactanos p {
-  color: white;
-}
-.contactanos h2 {
-  color: white;
-}
-.contactanos h5 {
-  color: white;
+.contactanos p, .contactanos h2, .contactanos h5 {
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -392,12 +383,9 @@ body {
   padding-top: 20px;
 }
 .footer h5 {
-  color: #003876;
+  color: #083367;
 }
-.footer ul p {
-  color: #797979;
-}
-.footer ul li {
+.footer ul p, .footer ul li {
   color: #797979;
 }
 
@@ -406,11 +394,11 @@ footer {
   background-color: #003670;
 }
 footer p {
-  color: white;
+  color: #ffffff;
   margin-bottom: 0;
 }
 footer i {
-  color: white;
+  color: #ffffff;
   margin: 5px;
 }
 

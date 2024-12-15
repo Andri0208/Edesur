@@ -1,11 +1,26 @@
+// Variables de color
+$color-fondo: #f3f3f3;
+$color-rojo: #DC052D;
+$color-azul: #003670;
+$color-naranja: #fd6b0d;
+$color-gris-claro: #ecf0f9;
+$color-gris-dos: #c1c2c4;
+$color-gris: #797979;
+$color-blanco: #ffffff;
+$color-gris-oscuro: #909aa8;
+$color-azul-oscuro: #083367;
+$color-amarillo: #da690c18;
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 .edesur {
-  background-color: #f3f3f3;
+  background-color: $color-fondo;
 }
+
 /* Estilos para el logo del encabezado */
 .header-logo {
   margin-top: 10px;
@@ -62,9 +77,6 @@ body {
 }
 
 /* Estilos para la barra de navegación */
-
-
-/* Estilos para el color de la barra de navegación */
 .color-navbar {
   border: 1px solid rgba(218, 218, 218, 0.5); /* Gris semi-transparente */
   border-radius: 5px; /* Bordes redondeados */
@@ -72,11 +84,9 @@ body {
 
 /* Estilos para la navegación */
 .navegacion {
- 
-
   /* Enlaces de navegación */
   .na {
-    color: #DC052D; /* Color rojo */
+    color: $color-rojo; /* Color rojo */
   }
 
   /* Estilo para el favicon */
@@ -86,8 +96,6 @@ body {
   }
 }
 
-
-/* Aqui el main */
 /* Estilo para el banner principal */
 .banner {
   display: flex;
@@ -100,7 +108,7 @@ body {
   margin: 20px;
   display: flex;
   transition: 0.5s;
-  background-color: #ecf0f9;
+  background-color: $color-gris-claro;
 
   /* Texto dentro de las tarjetas */
   p {
@@ -129,7 +137,7 @@ body {
 
   /* Elemento principal de la tarjeta con fondo y bordes redondeados */
   .card-mains {
-    background-color: #ff6b0a;
+    background-color: $color-naranja;
     width: 62.88px;
     height: 62.88px;
     display: flex;
@@ -142,13 +150,13 @@ body {
 /* Efecto hover para las tarjetas */
 .cards:hover {
   transform: translate(0px, 10px);
-  background-color: #c1c2c4;
+  background-color: $color-gris-dos;
   border-radius: 10px;
 }
 
 /* Estilo para un contenedor específico */
 #tarjeta {
-  background-color: #ecf0f9;
+  background-color: $color-gris-claro;
 }
 
 /* Estilo para los botones */
@@ -157,30 +165,30 @@ body {
 
   /* Botón primario */
   .btn-1 {
-    background-color: #003670;
+    background-color: $color-azul;
     border: none;
     margin-right: 5px;
     border-radius: 50px;
     padding: 10px 35px;
-    color: white;
+    color: $color-blanco;
 
     &:hover {
-      background-color: #ecf0f9;
-      color: #fd6b0d;
+      background-color: $color-gris-claro;
+      color: $color-naranja;
     }
   }
 
   /* Botón secundario */
   .btn-2 {
-    background-color: #fd6b0d;
+    background-color: $color-naranja;
     border: none;
     border-radius: 50px;
     padding: 10px 35px;
-    color: white;
+    color: $color-blanco;
 
     &:hover {
-      background-color: #ecf0f9;
-      color: #fd6b0d;
+      background-color: $color-gris-claro;
+      color: $color-naranja;
     }
   }
 }
@@ -193,8 +201,8 @@ body {
 }
 
 #card-informacion-al-cliente {
-  border-color: #c1c2c4;
-  box-shadow: #c1c2c4;
+  border-color: $color-gris-dos;
+  box-shadow: $color-gris-dos;
   border-radius: 20px !important;
   margin-bottom: 40px;
 
@@ -208,10 +216,10 @@ body {
   &:hover {
     transition: 0.5s;
     transform: translate(10px, 10px);
-    background-color: #dadada;
+    background-color: $color-gris-dos;
 
     p {
-      color: #fd6b0d;
+      color: $color-naranja;
     }
   }
 }
@@ -222,28 +230,28 @@ body {
 
 /* Información sobre la app móvil */
 .app-movil-titles {
-  background: linear-gradient(to bottom, white, #da690c18);
+  background: linear-gradient(to bottom, $color-blanco, $color-amarillo);
   margin-top: 40px;
 
   /* Subtítulo */
   h6 {
     font-size: 25px;
     font-weight: 600;
-    color: #fd6b0d;
+    color: $color-naranja;
   }
 
   /* Título principal */
   h2 {
     font-size: 32px;
     font-weight: 500;
-    color: #003670;
+    color: $color-azul;
   }
 
   /* Texto de descripción */
   p {
     font-size: 15px;
     font-weight: 600;
-    color: #909aa8;
+    color: $color-gris;
   }
 
   /* Botón */
@@ -251,14 +259,14 @@ body {
     height: 45px;
     width: 202px;
     border-radius: 50px;
-    color: #fd6b0d;
-    border-color: #fd6b0d;
+    color: $color-naranja;
+    border-color: $color-naranja;
     margin-top: 20px;
     margin-bottom: 20px;
 
     &:hover {
-      background-color: #fd6b0d;
-      color: white;
+      background-color: $color-naranja;
+      color: $color-blanco;
     }
   }
 }
@@ -279,8 +287,8 @@ body {
     height: 45px;
     width: 202px;
     border-radius: 50px;
-    background-color: #fd6b0d;
-    color: white;
+    background-color: $color-naranja;
+    color: $color-blanco;
     border: none;
     font-weight: 400;
     position: absolute; 
@@ -289,13 +297,13 @@ body {
 
     &:hover {
       transition: 0.5s;
-      background-color: white;
-      color: #fd6b0d;
+      background-color: $color-blanco;
+      color: $color-naranja;
     }
   }
 
   .fondo-portada {
-    background: linear-gradient(to bottom, #083367, #8e8e8e61);
+    background: linear-gradient(to bottom, $color-azul-oscuro, #8e8e8e61);
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -306,13 +314,13 @@ body {
     padding: 20px;
 
     p {
-      color: white;
+      color: $color-blanco;
       font-weight: 400;
     }
 
     .header-parrafo {
       font-weight: 400;
-      color: #fd6b0d;
+      color: $color-naranja;
     }
   }
 
@@ -321,7 +329,7 @@ body {
 
     p {
       font-size: 20px;
-      color: white;
+      color: $color-blanco;
     }
   }
 }
@@ -344,24 +352,23 @@ body {
     height: 45px;
     width: 202px;
     border-radius: 50px;
-    background-color: #fd6b0d;
-    color: white;
+    background-color: $color-naranja;
+    color: $color-blanco;
     border: none;
     font-weight: 400;
 
     &:hover {
       transition: 0.5s;
-      background-color: white;
-      color: #fd6b0d;
+      background-color: $color-blanco;
+      color: $color-naranja;
     }
   }
 }
 
 /* Area de licitacion */
-
 .licitacion {
   // Estilo de fondo y espaciado general para el contenedor principal de licitaciones
-  background-color: #ECF0F9;
+  background-color: $color-gris-claro;
   padding: 60px;
 
   .columna {
@@ -384,22 +391,20 @@ body {
     height: 45px;
     width: 202px;
     border-radius: 50px;
-    background-color: #003670;
-    color: white;
+    background-color: $color-naranja;
+    color: $color-blanco;
     border: none;
-    font-weight: 400;
 
     &:hover {
-      // Transición y cambio de colores al pasar el mouse
       transition: 0.5s;
-      background-color: white;
-      color: #fd6b0d;
+      background-color: $color-blanco;
+      color: $color-naranja;
     }
   }
 }
 
-/* Area de Certificaciones */
 
+/* Area de Certificaciones */
 .certificaciones {
   // Espaciado general para la sección de certificaciones
   padding: 40px;
@@ -410,89 +415,85 @@ body {
 
     span {
       // Color destacado para el texto dentro del título principal
-      color: #FD6B0D;
+      color: $color-naranja;
     }
   }
 
   .contenido-title {
     p {
       // Color del texto descriptivo debajo del título principal
-      color: #909AA8;
+      color: $color-gris-oscuro;
     }
   }
 }
 
 /* Area de Contactanos */
-
 .contactanos {
-  background-color: #003670;
+  background-color: $color-azul;
+  
   .atencion {
     margin: 40px;
   }
-  .cell{
+  
+  .cell {
     margin: 5px;
   }
-  p{
-    color: white;
-  }
-  h2{
-    color: white;
-  }
-  h5{
-    color: white;
+  
+  p, h2, h5 {
+    color: $color-blanco;
   }
 }
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
   .contactanos {
     .contacto {
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    
   }
 }
 
 /* Area del Footer */
-.footer{
+.footer {
   padding-top: 20px;
-  h5{
-    color: #003876;
+  
+  h5 {
+    color: $color-azul-oscuro;
   }
-  ul p {
-    color: #797979;
-  }
-  ul li {
-    color: #797979;
+
+  ul p, ul li {
+    color: $color-gris;
   }
 }
+
 footer {
   padding: 10px;
-  background-color: #003670;
+  background-color: $color-azul;
+  
   p {
-    color: white;
+    color: $color-blanco;
     margin-bottom: 0;
   }
+  
   i {
-    color: white;
+    color: $color-blanco;
     margin: 5px;
   }
-  
 }
+
 @media (max-width: 768px) {
-  .contenedor{
+  .contenedor {
     display: block;
   }
 }
+
 @media (max-width: 1200px) {
-   .footer{
+  .footer {
     .img {
       display: flex;
       align-items: center;
       justify-content: center;
     }
-   } 
+  }
 }
-
-
