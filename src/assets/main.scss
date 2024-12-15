@@ -1,8 +1,10 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .edesur {
   background-color: #f3f3f3;
-}
-.base{
-  border-color: #083367;
 }
 /* Estilos para el logo del encabezado */
 .header-logo {
@@ -52,6 +54,9 @@
   @media (max-width: 768px) {
     input {
       display: none; /* Oculta el input */
+    }
+    button {
+      display: none;
     }
   }
 }
@@ -437,3 +442,57 @@
     color: white;
   }
 }
+@media (max-width: 768px) {
+
+  .contactanos {
+    .contacto {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
+}
+
+/* Area del Footer */
+.footer{
+  padding-top: 20px;
+  h5{
+    color: #003876;
+  }
+  ul p {
+    color: #797979;
+  }
+  ul li {
+    color: #797979;
+  }
+}
+footer {
+  padding: 10px;
+  background-color: #003670;
+  p {
+    color: white;
+    margin-bottom: 0;
+  }
+  i {
+    color: white;
+    margin: 5px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .contenedor{
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+   .footer{
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   } 
+}
+
+

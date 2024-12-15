@@ -12,12 +12,12 @@ const img = {
 <div class="container contactanos">
     <div class="container text-center">
   <div class="row align-items-center">
-    <div class="col " >
+    <div class=" col-sm-12 col-xl-6  " >
       <h2>Contáctanos las 24 horas, los
         365 días del año.</h2>
         <p>Comunícate a nuestro Centro de Atención Telefónica para recibir asistencia personalizada.</p>
         <div class="row atencion">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 contacto">
                 <div class="d-flex text-center">
                     <div>
                     <img :src="img.img1" alt="">
@@ -28,7 +28,7 @@ const img = {
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 contacto">
                 <div class="d-flex text-center">
                     <div>
                     <img :src="img.img2" alt="">
@@ -42,7 +42,7 @@ const img = {
 
         </div>
     </div>
-    <div class="col">
+    <div class=" col-sm-12 col-xl-6">
         <img :src="img.img3" class="img-fluid" alt="...">
     </div>
   </div>

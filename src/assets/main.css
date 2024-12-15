@@ -1,10 +1,12 @@
 @charset "UTF-8";
-.edesur {
-  background-color: #f3f3f3;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.base {
-  border-color: #083367;
+.edesur {
+  background-color: #f3f3f3;
 }
 
 /* Estilos para el logo del encabezado */
@@ -49,6 +51,9 @@
 @media (max-width: 768px) {
   .header-search input {
     display: none; /* Oculta el input */
+  }
+  .header-search button {
+    display: none;
   }
 }
 
@@ -373,4 +378,51 @@
 }
 .contactanos h5 {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .contactanos .contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Area del Footer */
+.footer {
+  padding-top: 20px;
+}
+.footer h5 {
+  color: #003876;
+}
+.footer ul p {
+  color: #797979;
+}
+.footer ul li {
+  color: #797979;
+}
+
+footer {
+  padding: 10px;
+  background-color: #003670;
+}
+footer p {
+  color: white;
+  margin-bottom: 0;
+}
+footer i {
+  color: white;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+  .footer .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */

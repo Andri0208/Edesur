@@ -27,7 +27,7 @@ const fondo = [
 
 <template>
     <!-- Contenedor principal para la sección de noticias -->
-    <div class="container noticias base">
+    <div class="container noticias ">
         <!-- Título de la sección "Noticias" -->
         <div class="text-center portada-titles">
             <h2>Noticias</h2>
