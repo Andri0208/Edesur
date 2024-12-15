@@ -353,4 +353,24 @@
 }
 .certificaciones .contenido-title p {
   color: #909AA8;
+}
+
+/* Area de Contactanos */
+.contactanos {
+  background-color: #003670;
+}
+.contactanos .atencion {
+  margin: 40px;
+}
+.contactanos .cell {
+  margin: 5px;
+}
+.contactanos p {
+  color: white;
+}
+.contactanos h2 {
+  color: white;
+}
+.contactanos h5 {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
